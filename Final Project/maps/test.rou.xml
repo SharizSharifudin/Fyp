@@ -1,0 +1,14 @@
+<routes>
+    <vType id="car" vclass="passenger" length="5" accel="3.5" decel="2.2" sigma="1.0" maxSpeed="10"/>
+
+    <!--<route id="route0" from="E1" to="E10"/>
+        <stop lane="e12_0" endPos="50" duration="20"/>-->
+
+    <flow id="carflow" type="car" beg="0" end="0" number="4" from="E1" to="E10"/>
+
+
+    <<vehicle id="v0" type="car" depart="0">
+        <stop lane="E1_0" duration="100"/>
+    </vehicle>
+
+</routes>
